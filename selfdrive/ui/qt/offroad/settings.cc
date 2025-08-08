@@ -75,7 +75,7 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
   "../assets/icons/experimental_white.svg",
   false,
   },
-  };
+};
 
 
   std::vector<QString> longi_button_texts{tr("Aggressive"), tr("Standard"), tr("Relaxed")};
