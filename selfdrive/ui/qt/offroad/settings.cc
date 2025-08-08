@@ -68,6 +68,13 @@ TogglesPanel::TogglesPanel(SettingsWindow *parent) : ListWidget(parent) {
       "../assets/icons/metric.png",
       false,
     },
+    {
+  "SDRaceModeEnabled",
+  tr("Enable SDRaceMode"),
+  tr("Activate sport mode with performance HUD, G-force, and EV tuning."),
+  "../assets/icons/experimental_white.svg",
+  false,
+  },
   };
 
 
